@@ -1,0 +1,31 @@
+
+/* Media Query for Small device */
+@media screen and (max-width: 576px) {
+    .banner-container{
+        flex-direction: column;
+        padding-left: 10px;
+    }
+
+    .navbar{
+        padding: 0 30px;
+    }
+    .nav-list{
+        display: none;
+    }
+    .nav-icon{
+        display: block;
+    }
+
+    .primary-btn{
+        padding: 16px 30px;
+    }
+
+    .show-up1{
+        left: 190px;
+        bottom: 540px;
+    }
+    .show-up2{
+        left: 0;
+        bottom: 400px;
+    }
+}
