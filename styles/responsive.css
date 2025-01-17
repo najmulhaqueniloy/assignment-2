@@ -1,6 +1,15 @@
 
 /* Media Query for Small device */
 @media screen and (max-width: 576px) {
+    .section-info,
+    .run-container,
+    .training-area,
+    .team-container,
+    .footer-container{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
     .navbar{
         padding: 0 30px;
     }
@@ -28,14 +37,13 @@
         left: 0;
         bottom: 400px;
     }
+
     .habits-container{
         grid-template-columns: 1fr;
     }
     .run-container{
         flex-direction: column;
         gap: 31px;
-        margin-left: 20px;
-        margin-right: 20px;
     }
     .image-container1{
         grid-template-columns: repeat(2, 1fr);
@@ -48,10 +56,6 @@
         height: 128px;
     }
 
-    .training-area{
-        margin-left: 20px;
-        margin-right: 20px;
-    }
     .br-image3{
         display: none;
     }
@@ -72,6 +76,20 @@
     }
     .text1, .sd-text{
         top: 100px;
+    }
+
+    .team-container{
+        grid-template-columns: 1fr;
+    }
+
+    /* .team-image1, .team-image4{
+        display: none;
+    } */
+
+    .footer-container,
+    .service-container{
+        flex-direction: column;
+        gap: 30px;
     }
     
 }

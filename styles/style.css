@@ -15,6 +15,7 @@ body{
     --primary-color:#E6533C;
     --white-color:#ffffff;
     --black-color:#000000;
+    --bg-gray: rgba(80, 80, 80, 0.3);
 }
 
 .primary-btn{
@@ -199,7 +200,7 @@ a{
 
 /* Run section styles */
 .run-container{
-    background-color: rgba(128, 128, 128, 0.329);
+    background-color: var(--bg-gray);
     margin: 100px auto;
     display: flex;
     gap: 165px;
@@ -235,7 +236,7 @@ a{
 }
 
 .br-image1{
-    background-image: url(../images/exercise1.jpg);
+    background-image: url(../images/exercise1.png);
 }
 .br-image2{
     background-image: url(../images/exercise2.png);
@@ -247,10 +248,10 @@ a{
     background-image: url(../images/exercise4.png);
 }
 .br-image5{
-    background-image: url(../images/exercise5.jpg);
+    background-image: url(../images/exercise5.png);
 }
 .br-image6{
-    background-image: url(../images/exercise6.jpg);
+    background-image: url(../images/exercise6.png);
 }
 
 .bluree{
@@ -303,3 +304,103 @@ p.text4{
     display: none;
 } 
 
+/* Our Team section styles */
+.team-area{
+    margin-top: 88px;
+    margin-bottom: 88px;
+}
+
+.team-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: var(--bg-gray);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.team-container .common{
+    width: 100%;
+    height: 272px;
+    background-size: cover;
+    border-radius: 10px;
+}
+.team-image1{
+    background-image: url(../images/trainer1.png);
+}
+.team-image2{
+    background-image: url(../images/trainer2.png);
+}
+.team-image3{
+    background-image: url(../images/trainer3.png);
+}
+.team-image4{
+    background-image: url(../images/trainer4.png);
+}
+.team-image5{
+    background-image: url(../images/trainer5.png);
+}
+.team-image6{
+    background-image: url(../images/trainer6.png);
+}
+
+.trainer-name{
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
+.trainer-info{
+    position: relative;
+    left: 20px;
+    top: 213px;
+}
+
+/* Footer Section styles */
+.footer{
+    background-color: var(--bg-gray);
+    padding: 65px 0 35px;
+}
+
+.footer-container{
+    max-width: 1060px;
+    margin: 0 auto 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.service-container{
+    display: flex;
+    gap: 150px;
+}
+
+.brand-footer{
+    font-size: 4.375rem;
+    font-weight: bolder;
+    color: var(--primary-color);
+}
+
+.footer-title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.footer-item{
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer-item p{
+    margin-top: 20px;
+}
+
+.horizontal-line{
+    max-width: 1060px;
+    margin: 0 auto;
+    opacity: 0.3;
+}
+
+.last-text{
+    font-size: 1.25rem;
+    letter-spacing: 0.3px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 35px;
+}
