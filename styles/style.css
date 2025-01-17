@@ -49,6 +49,10 @@ body{
     margin-top: 10px;
 }
 
+.hide{
+    display: none;
+}
+
 
 /* Width Heigth related styles */
 header{
@@ -224,32 +228,78 @@ a{
     grid-template-columns: 425px 288px 347px;
 }
 
-.image-container1 img, .image-container2 img{
-    width: 100%;
+.training-img{
     height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.blur{
+.br-image1{
+    background-image: url(../images/exercise1.jpg);
+}
+.br-image2{
+    background-image: url(../images/exercise2.png);
+}
+.br-image3{
+    background-image: url(../images/exercise3.png);
+}
+.br-image4{
+    background-image: url(../images/exercise4.png);
+}
+.br-image5{
+    background-image: url(../images/exercise5.jpg);
+}
+.br-image6{
+    background-image: url(../images/exercise6.jpg);
+}
+
+.bluree{
     width: 100%;
     height: 100%;
-    position: relative;
-    top: -205px;
 }
+
 .blur1{
-    background-color: rgba(6, 255, 210, 0.5);
+   background-color: rgba(6, 255, 210, 0.5); 
 }
 .blur2{
-    background-color: rgba(255, 0, 0, 0.3);
+    background-color: rgba(255, 0, 0, 0.3); 
 }
 .blur3{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5); 
 }
 .blur4{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5); 
 }
 .blur5{
-    background-color: rgba(66, 255, 0, 0.3);
+    background-color: rgba(66, 255, 0, 0.3); 
 }
 .blur6{
-    background-color: rgba(0, 71, 255, 0.3);
+    background-color: rgba(0, 71, 255, 0.3); 
 }
+
+.bluree p{
+    font-size: 0.875rem;
+    font-weight: 500;
+    position: relative;
+    left: 30px;
+}
+
+.text1{
+    color: #000000;
+    top: 157px;
+}
+.text2{
+    top: 30px;
+}
+.text3, .text5, .text6{
+    top: 146px;
+}
+p.text4{
+    left: 250px;
+    top: 30px;
+}
+
+.sd-text{
+    display: none;
+} 
+

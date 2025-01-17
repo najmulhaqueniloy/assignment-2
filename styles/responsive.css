@@ -37,4 +37,41 @@
         margin-left: 20px;
         margin-right: 20px;
     }
+    .image-container1{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .image-container2{
+        grid-template-columns: 46% 54%;
+    }
+
+    .training-img{
+        height: 128px;
+    }
+
+    .training-area{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .br-image3{
+        display: none;
+    }
+    .br-image6{
+        display: none;
+    }
+
+    .bluree p{
+        left: 10px;
+    }
+
+    .text4, .text5{
+        display: none;
+    }
+
+    .sd-text{
+        display: block;
+    }
+    .text1, .sd-text{
+        top: 100px;
+    }
+    
 }
