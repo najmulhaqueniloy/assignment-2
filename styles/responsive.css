@@ -1,11 +1,6 @@
 
 /* Media Query for Small device */
 @media screen and (max-width: 576px) {
-    .banner-container{
-        flex-direction: column;
-        padding-left: 10px;
-    }
-
     .navbar{
         padding: 0 30px;
     }
@@ -14,6 +9,11 @@
     }
     .nav-icon{
         display: block;
+    }
+
+    .banner-container{
+        flex-direction: column;
+        padding-left: 10px;
     }
 
     .primary-btn{
@@ -27,5 +27,14 @@
     .show-up2{
         left: 0;
         bottom: 400px;
+    }
+    .habits-container{
+        grid-template-columns: 1fr;
+    }
+    .run-container{
+        flex-direction: column;
+        gap: 31px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }

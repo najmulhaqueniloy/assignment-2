@@ -25,11 +25,39 @@ body{
     font-weight: 600;
     color: var(--white-color);
     cursor: pointer;
+    margin-top: 28px;
 }
 
-/* Header related styles */
+.text-align{
+    text-align: center;
+}
+
+.section-info{
+    max-width: 640px;
+    margin: 0 auto 58px;
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: 900;    
+}
+
+.description{
+    font-size: 0.875rem;
+    letter-spacing: 0.3px;
+    opacity: 0.5;
+    margin-top: 10px;
+}
+
+
+/* Width Heigth related styles */
 header{
     max-width: 1080px;
+    margin: 0 auto;
+}
+
+section{
+    max-width: 1060px;
     margin: 0 auto;
 }
 
@@ -43,7 +71,7 @@ header{
 
 .brand{
     font-size: 2.25rem;
-    font-weight: bolder;
+    font-weight: 900;
     color: var(--primary-color);
 }
 
@@ -128,7 +156,7 @@ a{
     bottom: 450px; 
 }
 .show-up2{
-    left: -130px;
+    left: -80px;
     bottom: 230px;
     display: flex;
     justify-content: center;
@@ -136,10 +164,92 @@ a{
     gap: 8px;
 }
 
-
 .round{
     width: 40px;
     height: 40px;
     border-radius: 50%;
     background-color: var(--primary-color);
+}
+
+/* Change you habit section styles */
+.habits-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    padding: 0 30px;
+}
+
+.habits-content{
+    text-align: center;
+}
+
+.habits-title{
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.habits-content img{
+    border: 5px solid rgba(128, 128, 128, 0.418);
+    border-radius: 50%;
+}
+
+/* Run section styles */
+.run-container{
+    background-color: rgba(128, 128, 128, 0.329);
+    margin: 100px auto;
+    display: flex;
+    gap: 165px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 32px;
+    border-radius: 10px;
+}
+
+.run-container button{
+    padding: 16px 70px;
+}
+
+.run-img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Training and Exercise section */
+.image-container1{
+    display: grid;
+    grid-template-columns: 250px 520px 290px;
+}
+.image-container2{
+    display: grid;
+    grid-template-columns: 425px 288px 347px;
+}
+
+.image-container1 img, .image-container2 img{
+    width: 100%;
+    height: 200px;
+}
+
+.blur{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -205px;
+}
+.blur1{
+    background-color: rgba(6, 255, 210, 0.5);
+}
+.blur2{
+    background-color: rgba(255, 0, 0, 0.3);
+}
+.blur3{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.blur4{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.blur5{
+    background-color: rgba(66, 255, 0, 0.3);
+}
+.blur6{
+    background-color: rgba(0, 71, 255, 0.3);
 }
