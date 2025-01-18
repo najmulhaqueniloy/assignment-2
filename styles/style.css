@@ -47,7 +47,7 @@ body{
     font-size: 0.875rem;
     letter-spacing: 0.3px;
     opacity: 0.5;
-    margin-top: 10px;
+    margin-top: 14px;
 }
 
 .hide{
@@ -220,6 +220,10 @@ a{
 }
 
 /* Training and Exercise section */
+.training-section .section-info{
+    margin-left: 20px;
+}
+
 .image-container1{
     display: grid;
     grid-template-columns: 250px 520px 290px;
@@ -303,6 +307,73 @@ p.text4{
 .sd-text{
     display: none;
 } 
+
+/* Calculator related styles */
+.calc-info{
+    margin-top: 58px;
+    margin-left: 190px;
+}
+
+.calculator-section{
+    background-color: var(--bg-gray);
+    max-width: 100%;
+}
+
+.calculator-container{
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 52px 0;
+    display: flex;
+    gap: 175px;
+    justify-content: space-between;
+}
+
+.calculator-cart table{
+    border-collapse: collapse;
+    margin-top: 52px;
+    width: 280px;
+}
+.calculator-cart td, th{
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 13px 0 13px 18px;
+}
+.calculator-cart th{
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+}
+.calculator-cart td{
+    font-size: 0.875rem;
+    opacity: 0.5;
+}
+
+.input-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-top: 30px;
+}
+
+.input-container input, select{
+    font-size: 1rem;
+    opacity: 0.6;
+    padding: 13px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    border: none;
+}
+
+#factor{
+    grid-column: span 2;
+}
+
+option{
+    background-color: #000000;
+}
+
+
+
 
 /* Our Team section styles */
 .team-area{
@@ -404,3 +475,4 @@ p.text4{
     color: rgba(255, 255, 255, 0.5);
     margin-top: 35px;
 }
+

@@ -1,11 +1,13 @@
 
 /* Media Query for Small device */
 @media screen and (max-width: 576px) {
+    .banner-container,
     .section-info,
     .run-container,
     .training-area,
     .team-container,
-    .footer-container{
+    .footer-container,
+    .calculator-container{
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -76,6 +78,11 @@
     }
     .text1, .sd-text{
         top: 100px;
+    }
+
+
+    .calculator-container{
+        flex-direction: column;
     }
 
     .team-container{
