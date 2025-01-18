@@ -345,32 +345,39 @@ p.text4{
     opacity: 0.5;
 }
 
-.input-container{
+form {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 12px;
     margin-top: 30px;
-}
-
-.input-container input, select{
+  }
+  
+form input, select {
     font-size: 1rem;
     opacity: 0.6;
-    padding: 13px 20px;
+    padding: 13px 0;
     background-color: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.3);
     border-radius: 8px;
     border: none;
+    width: 100%;
+}
+  
+.activity-factor {
+    grid-column: span 2;
 }
 
-/* .factor{
-    grid-column: span 2;
-} */
+form input::placeholder {
+    padding-left: 20px;
+}
+
+form select{
+    padding-left: 20px;
+}
 
 option{
     background-color: #000000;
 }
-
-
 
 
 /* Our Team section styles */
