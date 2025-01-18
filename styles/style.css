@@ -338,8 +338,6 @@ p.text4{
     padding: 13px 0 13px 18px;
 }
 .calculator-cart th{
-    font-size: 1rem;
-    font-weight: 500;
     text-align: left;
 }
 .calculator-cart td{
@@ -364,9 +362,9 @@ p.text4{
     border: none;
 }
 
-#factor{
+/* .factor{
     grid-column: span 2;
-}
+} */
 
 option{
     background-color: #000000;

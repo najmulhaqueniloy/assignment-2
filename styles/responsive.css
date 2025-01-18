@@ -1,6 +1,7 @@
 
 /* Media Query for Small device */
 @media screen and (max-width: 576px) {
+    .navbar,
     .banner-container,
     .section-info,
     .run-container,
@@ -12,9 +13,9 @@
         margin-right: 20px;
     }
 
-    .navbar{
+    /* .navbar{
         padding: 0 30px;
-    }
+    } */
     .nav-list{
         display: none;
     }
@@ -80,9 +81,9 @@
         top: 100px;
     }
 
-
     .calculator-container{
         flex-direction: column;
+        gap: 50px;
     }
 
     .team-container{
@@ -97,6 +98,53 @@
     .service-container{
         flex-direction: column;
         gap: 30px;
+    }  
+}
+
+/* Media Query for tablet */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .navbar,
+    .banner-container,
+    .section-info,
+    .run-container,
+    .training-area,
+    .team-container,
+    .footer-container,
+    .calculator-container{
+        margin-left: 30px;
+        margin-right: 30px;
     }
-    
+
+    .banner-container{
+        flex-direction: column;
+        padding-left: 10px;
+    }
+
+    .show-up1{
+        left: 190px;
+        bottom: 540px;
+    }
+    .show-up2{
+        left: 0;
+        bottom: 300px;
+    }
+
+    .habits-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .image-container1{
+        grid-template-columns: 214px 259px 211px;
+    }
+    .image-container2{
+        grid-template-columns: 276px 210px 198px;
+    }
+    p.text4{
+        left: 30px;
+        top: 146px;
+    }
+    .calculator-container,
+    .footer-container{
+        flex-direction: column;
+    } 
 }
