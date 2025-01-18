@@ -402,22 +402,22 @@ option{
     border-radius: 10px;
 }
 .team-image1{
-    background-image: url(../images/trainer1.png);
+    background-image: url(../images/trainer1.jpg);
 }
 .team-image2{
-    background-image: url(../images/trainer2.png);
+    background-image: url(../images/trainer2.jpg);
 }
 .team-image3{
-    background-image: url(../images/trainer3.png);
+    background-image: url(../images/trainer3.jpg);
 }
 .team-image4{
-    background-image: url(../images/trainer4.png);
+    background-image: url(../images/trainer4.jpg);
 }
 .team-image5{
-    background-image: url(../images/trainer5.png);
+    background-image: url(../images/trainer5.jpg);
 }
 .team-image6{
-    background-image: url(../images/trainer6.png);
+    background-image: url(../images/trainer6.jpg);
 }
 
 .trainer-name{

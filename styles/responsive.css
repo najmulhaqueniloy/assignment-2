@@ -139,10 +139,12 @@
     .image-container2{
         grid-template-columns: 276px 210px 198px;
     }
+
     p.text4{
         left: 30px;
         top: 146px;
     }
+    
     .calculator-container,
     .footer-container{
         flex-direction: column;
